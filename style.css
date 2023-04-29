@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    background: #eee; 
+    margin: auto;
+    padding: 15px 25px;
+    transition: background-color 1s linear;
+}
+
+.card:hover{
+    background-color: #afafaf;
+}
+
